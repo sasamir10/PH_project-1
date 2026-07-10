@@ -1,3 +1,40 @@
 * {
-   background-color: blue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 100px;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #575757;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #1d4ed8;
+    color: #ffffff;
+    padding: 12px 28px;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main {
+    background-color: aquamarine;
 }

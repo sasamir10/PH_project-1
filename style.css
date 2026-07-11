@@ -199,5 +199,20 @@ hr {
     font-size: 14px;
     font-weight: 700;
     margin-top: 32px;
-    padding: 20px 0;
+    padding: 16px 0;
+    cursor: pointer;
+}
+
+.price-card-middle {
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+
+.price-card-middle p:first-child {
+    color: #93c5fd;
+}
+
+.price-card-btn-middle {
+    background-color: #2563eb;
+    color: #ffffff;
 }

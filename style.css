@@ -78,6 +78,12 @@
     margin: 48px 0 36px;
 }
 
+.speaker-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
 .card {
     border: 2px solid #e5e7eb;
     width: 50%;

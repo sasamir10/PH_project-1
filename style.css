@@ -23,6 +23,10 @@
     font-size: 14px;
 }
 
+.nav-link:hover {
+    color: #1d4ed8;
+}
+
 .btn {
     background-color: #1d4ed8;
     color: #ffffff;

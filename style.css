@@ -181,7 +181,7 @@
     font-size: 13px;
 }
 
-hr {
+.price-card-hr {
     border: none;
     background-color: #e5e7eb;
     height: 1.5px;
@@ -306,11 +306,18 @@ details[open] span {
 
 .footer {
     display: flex;
+    flex-direction: column;
+    background-color: #0d1b2a;
+    color: #e5e7eb;
+}
+
+.footer-1 {
+    display: flex;
     justify-content: space-between;
     /* align-items: center; */
     height: 40vh;
-    background-color: #0d1b2a;
-    color: #e5e7eb;
+    /* background-color: #0d1b2a; */
+    /* color: #e5e7eb; */
     padding: 50px 100px;
 }
 
@@ -354,9 +361,17 @@ details[open] span {
     color: #888888;
 }
 
-.copyright {
+.footer-hr {
+    border: none;
+    background-color: #414040;
+    height: 1.5px;
+    margin-top: 20px;
+}
+
+.footer-2 {
     background-color: #0d1b2a;
     color: #888888;
+    font-size: 14px;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
 }
